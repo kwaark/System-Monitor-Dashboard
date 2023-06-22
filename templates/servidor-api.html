@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Monitoramento</title>
+</head>
+<body>
+    <h1 class="title">Monitoramento de Desempenho</h1>
+    <h2>Servidor API</h2>
+    <button onclick="location.reload();">Atualizar</button>
+    <button onclick="location.href='/';">Voltar</button>
+    <div class="graph-container">
+        <div class="graph">
+            <h3>Uso de Memória</h3>
+            <img src="/static/graficos/grafico_memoria.png" alt="Gráfico de Uso de Memória" class="responsive">
+        </div>
+        <div class="graph">
+            <h3>Uso de CPU</h3>
+            <img src="/static/graficos/grafico_cpu.png" alt="Gráfico de Uso de CPU" class="responsive">
+        </div>
+    </div>
+</body>
+</html>

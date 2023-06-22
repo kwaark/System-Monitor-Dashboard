@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5em;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    color: black;
+    font-size: 2.5em;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: black;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    color: blue;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #696969; /* Gray */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* This makes the button rounded */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+/* This will change the color of the button when you hover over it */
+button:hover {
+    background-color: #808080;
+}
+
+/* This will change the color of the button when you click on it */
+button:active {
+    background-color: #A9A9A9;
+}
+
+
+.graph-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.graph {
+    width: 45%;
+}
+
+img.responsive {
+    max-width: 80%;
+    height: auto;
+}
