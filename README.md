@@ -37,7 +37,7 @@ MEM. RAM - Total: xxxMB Used: xxxMB
 CPU% - Used: x.xx%  
 
 
-## GERAR DADOS AUTOMÁTICO (LINUX):
+## Gerar dados automaticamente com LINUX:
 Use o script "get-usages.sh" para pegar o uso da memoria e CPU atuais.
 
 Abra o cron:  
